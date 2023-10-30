@@ -1,0 +1,16 @@
+.product-main-holder {
+    width: 90%;
+    height: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.not-found {
+    font-size: 3rem;
+}
+
+@media (max-width:768px) {
+    .product-main-holder {
+        width: 100%;
+    }
+}
